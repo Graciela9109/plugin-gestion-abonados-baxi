@@ -1,0 +1,47 @@
+.baxi-canvas-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  aspect-ratio: 9 / 6.5;
+  border: 1px solid #ccc;
+  position: relative;
+  background-color: transparent;
+}
+
+.baxi-canvas-container canvas {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+  background-color: transparent;
+}
+
+.baxi-mapa-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  aspect-ratio: 16 / 11;  /* Ajusta el ratio según tu diseño */
+  margin: 0 auto;
+  position: relative;
+}
+
+.baxi-mapa-wrapper canvas {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+
+#baxi-buy-seats[disabled]{
+  opacity: .5;
+  pointer-events: none;
+}
+
+#mapa-zonas-container, #mapa-submapa-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+canvas {
+  display: block;
+  width: 100% !important;   /* ← fuerza el ajuste visual */
+  height: auto !important;
+}
+
